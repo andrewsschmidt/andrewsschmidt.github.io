@@ -53,7 +53,7 @@ Connect users:
 
 Here are some other articles to learn about Azure Virtual Desktop:
 
-- Learn about [terminology used for Azure Virtual Desktop](terminology.md).
+- Learn about [terminology used for Azure Virtual Desktop].
 - You can see a typical architectural setup of Azure Virtual Desktop for the enterprise in our [architecture documentation](/azure/architecture/example-scenario/wvd/windows-virtual-desktop?context=/azure/virtual-desktop/context/context).
-- Understand the [prerequisites](prerequisites.md) before you deploy Azure Virtual Desktop.
-- When you're ready to try Azure Virtual Desktop, follow our tutorial to [Create and connect to a Windows 11 desktop with Azure Virtual Desktop](tutorial-create-connect-personal-desktop.md), where you can deploy a sample infrastructure.
+- Understand the [prerequisites] before you deploy Azure Virtual Desktop.
+- When you're ready to try Azure Virtual Desktop, follow our tutorial to [Create and connect to a Windows 11 desktop with Azure Virtual Desktop], where you can deploy a sample infrastructure.
