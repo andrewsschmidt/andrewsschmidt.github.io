@@ -31,7 +31,7 @@ The following table goes into more detail about the differences between each typ
 |User assignment process| Users can either be directly assigned to session hosts or be automatically assigned to the first available session host. Users always have sessions on the session hosts they are assigned to. | Users aren't assigned to session hosts. After a user signs out and signs back in, their user session might get load balanced to a different session host. |
 |Scaling|None. | [Autoscale]for pooled host pools turns VMs on and off based on the capacity thresholds and schedules the customer defines. |
 |Windows Updates|Updated with Windows Updates, [System Center Configuration Manager (SCCM)], or other software distribution configuration tools.|Updated by redeploying session hosts from updated images instead of traditional updates.|
-|User data| Each user only ever uses one session host, so they can store their user profile data on the operating system (OS) disk of the VM. | Users can connect to different session hosts every time they connect, so they should store their user profile data in [FSLogix](/fslogix/configure-profile-container-tutorial). |
+|User data| Each user only ever uses one session host, so they can store their user profile data on the operating system (OS) disk of the VM. | Users can connect to different session hosts every time they connect, so they should store their user profile data in [FSLogix]. |
 
 ### Validation environment
 
@@ -95,8 +95,8 @@ A pending user session is a placeholder session that reserves a spot on the load
 
 ## Next steps
 
-Learn more about delegated access and how to assign roles to users at [Delegated Access in Azure Virtual Desktop](delegated-access-virtual-desktop.md).
+Learn more about delegated access and how to assign roles to users at [Delegated Access in Azure Virtual Desktop].
 
-To learn how to set up your Azure Virtual Desktop host pool, see [Create a host pool with the Azure portal](create-host-pools-azure-marketplace.md).
+To learn how to set up your Azure Virtual Desktop host pool, see [Create a host pool with the Azure portal].
 
 To learn how to connect to Azure Virtual Desktop, see one of the following articles:
